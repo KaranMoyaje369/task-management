@@ -159,7 +159,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="mx-4 mt-20">
+        <div className="mx-4 mt-[120px]">
           <SearchBar tasks={tasks} onSearch={handleSearch} />
         </div>
 
