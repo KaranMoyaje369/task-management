@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     outDir: "build", // This makes sure Vite outputs to the 'build' folder
   },
+  base: "/task-management",
 });
