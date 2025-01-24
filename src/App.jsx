@@ -8,7 +8,8 @@ import Dashboard from "./components/Dashboard";
 import TaskList from "./components/TaskList";
 import EditTaskForm from "./components/EditTaskForm";
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL =
+  "https://karanmoyaje369.github.io/task-management-api/db.json/tasks";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
